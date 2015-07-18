@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.header {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #002366;
+    color: #FFFFFF;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.content p {
+    text-align: center;
+}
+
+.links {
+    max-width: 310px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.link {
+    display: block;
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+.link.single {
+    margin: 5px 82.5px;
+}
+
+.link:hover, .link:active {
+    background-color:  #EEEEEE;
+}
+
+.link .octicon {
+    display: block;
+    font-size: 96px;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
