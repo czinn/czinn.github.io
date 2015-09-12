@@ -38,9 +38,11 @@ body {
 }
 
 .links {
+    display: block;
     max-width: 310px;
     margin: 0 auto;
     padding: 20px 0px;
+    overflow: hidden;
 }
 
 .link {
@@ -57,10 +59,10 @@ body {
 }
 
 .link.single {
-    margin: 5px 82.5px;
+    margin: 3px 82.5px;
 }
 
-.link:hover, .link:active {
+.link:hover, .link:active, .project:hover, .project:active {
     background-color:  #EEEEEE;
 }
 
@@ -70,6 +72,31 @@ body {
     margin-bottom: 5px;
 }
 
+.project {
+    display: block;
+    width: 280;
+    height: 125px;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    float: left;
+}
+
+.project .octicon, .project img {
+    display: block;
+    float: left;
+    font-size: 96px;
+    width: 96px;
+    margin: 14px 15px 0px 5px;
+}
+
+.project p {
+    text-align: left;
+    line-height: 20px;
+}
+
 .hidden {
     display: none;
 }
@@ -77,4 +104,28 @@ body {
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+h2 {
+    text-align: center;
+    background-color: #002366;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    left: 0px;
+    right: 0px;
+}
+
+@media (max-width:540px) {
+    h2 {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width:350px) {
+    .content {
+        padding: 10px 0px;
+    }
 }
