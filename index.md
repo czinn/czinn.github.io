@@ -26,7 +26,7 @@ Try using [Fortuit][tryfortuit]! You can test out the friends feature by adding 
 
 ### Mafia
 
-Mafia is a popular party game. A small number of players are the mafia, and their goal is to eliminate all villagers. The villagers can vote to lynch people, but they risk lynching their one of their own number. Some villagers have special powers. When played in real life, a game master is required to faciliate interactions, and they can't play in the game themselves.
+Mafia is a popular party game. A small number of players are the mafia, and their goal is to eliminate all villagers. The villagers can vote to lynch people, but they risk lynching one of their own number. Some villagers have special powers. When played in real life, a game master is required to faciliate interactions, and they can't play in the game themselves.
 
 I created a simple, minimalistic web app that takes the place of a game master. There are existing websites that do this, but they overcomplicate things with variations and accounts. Plus, it was a fun way to test out some web technologies like AngularJS and Socket.io.
 
