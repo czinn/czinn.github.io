@@ -1,0 +1,33 @@
+# Site settings
+title: Charles Zinn
+email: charles@zinn.ca
+description: >
+  Person website of a software engineering student.
+keywords:
+  - software
+  - engineering
+  - waterloo
+baseurl: ""
+url: "http://charleszinn.ca"
+github_username: Semicolon314
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /blog/:title
+
+# Build settings
+markdown: kramdown
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+sass:
+  style: compressed

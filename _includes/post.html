@@ -1,0 +1,25 @@
+<article>
+
+  <header>
+    <h1 class="page-title">{{ post.title }}</h1>
+    <p class="small">
+      {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+  </header>
+
+  {{ post.content }}
+
+  <p class="page-links">
+    <span class="page-previous">
+      {% if post.previous %}
+      <a href="{{ post.previous.url }}">&larr; {{ post.previous.title }}</a>
+      {% endif %}
+    </span><!--
+ --><span class="page-next">
+      {% if post.next %}
+      <a href="{{ post.next.url }}">{{ post.next.title }} &rarr;</a>
+      {% endif %}
+    </span>
+  </p>
+
+</article>

@@ -1,0 +1,3 @@
+[submodule "depnunkei"]
+	path = depnunkei
+	url = git@github.com:Semicolon314/depnunkei.git
