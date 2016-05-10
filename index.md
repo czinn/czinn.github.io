@@ -22,7 +22,7 @@ I play Go. I'm currently a 10-kyu on [OGS] and I'm slowly but steadily improving
 
 Fortuit was inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. Fortuit aims to improve prediction-making by letting you track your predictions. This allows you calibrate your predictions and form a more accurate mental model of your mental model of the world.
 
-The website is no longer live, but you can check out the [Fortuit GitHub repo][fortuit]. It's pretty easy to run a local instance.
+Try using [Fortuit][tryfortuit]! You can test out the friends feature by adding **charles**. You can also view the source code in the [Fortuit GitHub repo][fortuit].
 
 ### Mafia
 
@@ -49,6 +49,7 @@ You can view the source code in the [Condi GitHub repo][condi].
 
 [resume]: CharlesZinn.pdf
 [OGS]: https://online-go.com/user/view/69260
+[tryfortuit]: http://fortuit.semicolon.ca
 [fortuit]: https://github.com/Semicolon314/fortuit
 [mafia]: https://github.com/Semicolon314/mafia
 [playdepnunkei]: /depnunkei
