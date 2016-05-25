@@ -20,7 +20,7 @@ I play Go. I'm currently a 10-kyu on [OGS] and I'm slowly but steadily improving
 
 ### Fortuit
 
-Fortuit was inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. Fortuit aims to improve prediction-making by letting you track your predictions. This allows you calibrate your predictions and form a more accurate mental model of your mental model of the world.
+I made Fortuit with [Jim Zhang](http://neynt.ca/) at PennApps Winter 2015. Fortuit was inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. Fortuit aims to improve prediction-making by letting you track your predictions. This allows you calibrate your predictions and form a more accurate mental model of your mental model of the world.
 
 Try using [Fortuit][tryfortuit]! You can test out the friends feature by adding **charles**. You can also view the source code in the [Fortuit GitHub repo][fortuit].
 

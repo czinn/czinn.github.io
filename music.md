@@ -33,6 +33,7 @@ The genres are something like alternative, indie, pop, folk, and a bit of metal 
 <li>Laura Veirs
 <li>Lorde
 <li>Ludovico Einaudi
+<li>Marianas Trench
 <li>Midlake
 <li>Nightwish
 <li>Of Monsters and Men
@@ -43,6 +44,7 @@ The genres are something like alternative, indie, pop, folk, and a bit of metal 
 <li>Rise Against
 <li>Rogue Valley
 <li>Sarah Jaffe
+<li>Sigur Rós
 <li>Simon Swerwer
 <li>Thomas Bergersen
 <li>Two Steps from Hell
