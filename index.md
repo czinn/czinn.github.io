@@ -10,9 +10,9 @@ You can email me at [{{ site.email }}][email].
 
 ## Things I do
 
-I solve problems on [Project Euler][pe]. At the time of writing, I am 14th in Canada and in the top 1000 worldwide.
+I solve problems on [Project Euler][pe]. At the time of writing, I am 11th in Canada and in the top 1000 worldwide.
 
-I speak Esperanto (*Mi parolas Esperanton*). Recently I've also been trying to learn Lojban (*.i mi jbobau nintadni*).
+I speak Esperanto (*Mi parolas Esperanton*). Recently I've also been trying to learn Lojban (*.i mi jbobau nintadni*). I also took a weekend and learned Toki Pona (*mi kama sona e toki pona*). I like conlangs.
 
 I play Go. I'm currently a 10-kyu on [OGS] and I'm slowly but steadily improving.
 
