@@ -4,23 +4,21 @@ layout: default
 
 I'm a software engineering student at the University of Waterloo.
 
-I have a bunch of projects on [GitHub]. You can read some project summaries in the **Things I've done** section below. You may also want to take a look at my [résumé][resume].
+I have a bunch of projects on [GitHub]. You can read some project summaries in the **Things I've done** section below.
 
 You can email me at [{{ site.email }}][email].
 
 ## Things I do
 
-I solve problems on [Project Euler][pe]. At the time of writing, I am 11th in Canada and in the top 1000 worldwide.
+I solve problems on [Project Euler][pe]. At the time of writing, I am 11th in Canada and 1064th worldwide.
 
-I speak Esperanto (*Mi parolas Esperanton*). Recently I've also been trying to learn Lojban (*.i mi jbobau nintadni*). I also took a weekend and learned Toki Pona (*mi kama sona e toki pona*). I like conlangs.
-
-I play Go. I'm currently a 10-kyu on [OGS] and I'm slowly but steadily improving.
+I speak Esperanto (*Mi parolas Esperanton*)! I've also resumed studying Lojban (*.i mi di'a tadni lo jbobau*). I also took a weekend and learned Toki Pona (*mi kama sona e toki pona*). I like conlangs.
 
 ## Things I've done
 
 ### Fortuit
 
-I made Fortuit with [Jim Zhang](http://neynt.ca/) at PennApps Winter 2015. Fortuit was inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. Fortuit aims to improve prediction-making by letting you track your predictions. This allows you calibrate your predictions and form a more accurate mental model of your mental model of the world.
+I made Fortuit with [neynt](http://neynt.ca/) at PennApps Winter 2015. Fortuit was inspired by something called overconfidence bias: when we make predictions about the future, we tend to be really optimistic. Fortuit aims to improve prediction-making by letting you track your predictions. This allows you calibrate your predictions and form a more accurate mental model of your mental model of the world.
 
 Try using [Fortuit][tryfortuit]! You can test out the friends feature by adding **charles**. You can also view the source code in the [Fortuit GitHub repo][fortuit].
 
@@ -50,11 +48,11 @@ You can view the source code in the [Condi GitHub repo][condi].
 [resume]: CharlesZinn.pdf
 [OGS]: https://online-go.com/user/view/69260
 [tryfortuit]: http://fortuit.semicolon.ca
-[fortuit]: https://github.com/Semicolon314/fortuit
-[mafia]: https://github.com/Semicolon314/mafia
+[fortuit]: https://github.com/czinn/fortuit
+[mafia]: https://github.com/czinn/mafia
 [playdepnunkei]: /depnunkei
-[depnunkei]: https://github.com/Semicolon314/depnunkei
-[condi]: https://github.com/Semicolon314/condi
+[depnunkei]: https://github.com/czinn/depnunkei
+[condi]: https://github.com/czinn/condi
 [email]: mailto:{{ site.email }}
 [pe]: https://projecteuler.net/progress=semicolon7
 [github]: https://github.com/{{ site.github_username }}
