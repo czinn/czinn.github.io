@@ -6,6 +6,15 @@
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
+      <nav>
+        <a href="/projects">Projects</a>
+        <a href="/blog">Blog</a>
+        {% assign num_posts = site.posts | size %}
+        {% if num_posts > 1 %}
+        <a href="/blog/archive">Archive</a>
+        {% endif %}
+      </nav>
+
   </div>
 
 </header>

@@ -2,11 +2,17 @@
 title: Charles Zinn
 email: charles@zinn.ca
 description: >
-  Person website of a software engineering student.
+  Personal website of a software engineering student at the University of Waterloo.
 keywords:
+  - blog
   - software
   - engineering
+  - computer
+  - science
   - waterloo
+  - uw
+  - lojban
+  - esperanto
 baseurl: ""
 url: "http://charleszinn.ca"
 github_username: czinn

@@ -1,7 +1,12 @@
 <article>
 
   <header>
-    <h1 class="page-title">{{ post.title }}</h1>
+    <h1 class="page-title">
+      {% if page.url != post.url %}<a href="{{ post.url }}">{% endif %}
+      {{ post.title }}
+      {% if page.url != post.url %}</a>{% endif %}
+    </h1>
+
     <p class="small">
       {{ post.date | date: "%B %-d, %Y" }}
     </p>

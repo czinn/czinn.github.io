@@ -2,7 +2,7 @@
  * Reset some basic elements
  */
 body,
-ul, ol, blockquote, pre, code, figure {
+ul, ol, blockquote, pre, code, figure, table, tbody, tr, td {
   margin: 0;
   padding: 0;
 }
@@ -73,20 +73,30 @@ blockquote {
 
 pre, code {
   vertical-align: top;
+  position: relative;
+  top: 1px;
 }
 
-pre {
+pre, ul, table {
   padding: 0 $spacing-unit;
   margin-bottom: $spacing-unit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: $spacing-unit/2 $spacing-unit;
+}
+
+ul ul {
+  margin: 0;
 }
 
 code {
   color: $main-color;
-}
-
-ul {
-  margin-bottom: $spacing-unit;
-  padding: 0 $spacing-unit;
 }
 
 ul.compact {
@@ -98,9 +108,6 @@ ul.compact {
     margin-left: 1em;
     list-style-type: none;
   }
-}
-
-figure {
 }
 
 img {
@@ -117,6 +124,19 @@ img.md {
 img.lg {
   height: 12em;
 }
+
+sup {
+  line-height: 0;
+}
+
+.spoiler {
+  background-color: black;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
 
 .wrapper {
   max-width: $content-width;
