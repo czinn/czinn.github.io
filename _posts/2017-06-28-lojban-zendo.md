@@ -155,11 +155,9 @@ See if you can figure out the meaning of these rules! Mouse over or tap the blac
 
 ## More About Lojban
 
-For a broader introduction to Lojban, check out [lojbo.org][lojbo]. For more detailed information about the language and learning resources, go to [lojban.org]. If you decide to try learning Lojban, I recommend [Wave Lessons], [la karda][karda], or [The Crash Course][crash course] (sample them all and see what you like).
+For a broader introduction to Lojban, check out [lojbo.org][lojbo]. For more detailed information about the language and learning resources, go to [lojban.org]. If you decide to try learning Lojban, I recommend reading [la&nbsp;karda][karda] first.
 
 [zendo]: http://www.koryheath.com/zendo/
 [lojbo]: http://lojbo.org
 [lojban.org]: https://mw.lojban.org/papri/Lojban
-[wave lessons]: https://mw.lojban.org/papri/Lojban_Wave_Lessons
 [karda]: https://mw.lojban.org/papri/la_karda
-[crash course]: https://mw.lojban.org/papri/The_Crash_Course_(a_draft)
