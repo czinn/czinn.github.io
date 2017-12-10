@@ -8,6 +8,12 @@ A small selection of projects I've done over the years. You can see a more compl
 
 In addition to working on various projects, I solve problems on [Project Euler][pe]. At the time of writing, I am 11th in Canada and 1064th worldwide.
 
+## Tableflip
+
+Tableflip is a platform for playing board games (or any other sort of turn-based game) online. The client is Vue.js and the server is a Flask app using SQLAlchemy and Postgres. Games are implemented as state machines with the rules specified in JavaScript, which allows more games to be easily added. Tableflip currently supports six games: Connect 4, Quarto, Hanabi, Euchre, Love Letter, and Homeworlds.
+
+Play a game using [Tableflip][playtableflip] and check out the source code in the [Tableflip GitHub repo][tableflip].
+
 ## Liar's Dice
 
 Liar's Dice is a fun dice game. I read some papers about mental poker and realized that Liar's Dice would be a really easy game to test out some of the ideas about cryptographic trust. I devised a commitment protocol that allows players to play the game and trust the results, without a trusted authority.
@@ -43,6 +49,8 @@ Condi was my entry to a casual 7DRL (7-day roguelike) among some friends. Condi 
 You can view the source code in the [Condi GitHub repo][condi].
 
 [pe]: https://projecteuler.net/progress=semicolon7
+[playtableflip]: https://tableflip.semicolon.ca
+[tableflip]: https://github.com/neynt/tableflip
 [dice]: https://github.com/{{ site.github_username }}/liars-dice
 [tryfortuit]: http://fortuit.semicolon.ca
 [fortuit]: https://github.com/{{ site.github_username }}/fortuit
